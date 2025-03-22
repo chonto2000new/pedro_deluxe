@@ -28,7 +28,7 @@ screen rpg_calculator_buttons():
 
 # Funciones de combate
 init python:
-    # Variables del jugador y enemigo
+    # Variables del jugador y enemigoo
     hp = 100
     mp = 50
     nivel = 1
