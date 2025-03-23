@@ -10,7 +10,10 @@ default accion_texto = ""
 default turno_activo = False
 default background_battle = "videos/battle_bg.webm"
 
+#characters
+
 default pedro = Character("Pedro")
+default hijo_p = Character("Hijo de Pedro")
 
 label start:
     "¡Comienza el combate!"
