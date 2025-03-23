@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 18: the sensitive keyword argument was not given a value.
-    textbutton "Atacar" action [Function(actualizar_turno, "atacar"), Return("atacar")] sensitive=(not turno_activo)
-                                                                                                 ^
+File "game/script.rpy", line 13: expected '=' not found.
+    default define pedro = Character("Pedro")
+                   ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Sat Mar 22 02:46:43 2025
+Sat Mar 22 20:36:34 2025
