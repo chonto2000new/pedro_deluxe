@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: expected '=' not found.
-    default define pedro = Character("Pedro")
-                   ^
+File "game/script.rpy", line 33: expected statement.
+    "¡Te diriges a " + [viaje] + "!"
+                     ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Sat Mar 22 20:36:34 2025
+Tue Mar 25 01:57:37 2025

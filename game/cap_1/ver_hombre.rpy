@@ -1,11 +1,43 @@
+
+
 label ir_hombre:
     "Pedro se levantó y se dirigió hacia donde estaba el hombre."
-    "El hombre le entregó una carta y le dijo que era un mensaje importante."
-    "Pedro abrió la carta y comenzó a leerla."
-    "Fin."
-    return
+    "Al asumarse, pedro miro a un hombre alto y de aspecto misterioso."
+    "Vestido de manera elegante y con un sombrero de copa."
+    hombre_misterioso "¡Hola! ¿Eres Pedro?"
+    pedro "¡Sí! ¿En qué puedo ayudarte?"
+    hombre_misterioso "Soy representante del sat y vine a decirte que no has hecho tu declaración anual."
+    pedro "carambolas!!!! no sabia nada sobre eso."
+    hombre_misterioso "Asi es amigo tener de enemigo al sat es como tener como enemigo a batman y superman juntos."
+    hombre_misterioso "Pero no te preocupes, te dire lo que tienes que hacer."
+    pedro "Muchas gracias, ¿Qué tengo que hacer?"
+    hombre_misterioso "Solo tienes que superar dos desafios."
+    hombre_misterioso "El primer desafio es cruzar el puente en obra negra de la muerte."
+    pedro "Suena algo peligroso."
+    hombre_misterioso "Pero eso no es lo mas peligroso, lo mas peligroso es la espera de la muerte."
+    hombre_misterioso "Tendras que poner a prueba tu habilidad y resistencia esperando."
+    pedro "Muy bien, suena a un buen desafio."
+    hombre_misterioso "Asi es mi estimado, es una aventura llena de desafios, misterio, accion y aventura."
+    hombre_misterioso "A si que buena suerte."
+
+    jump dia_siguiente
 
 label descansar:
-    "Pedro se quedó dormido y no volvió a despertar."
-    "Fin."
+    "Pedro se quedo recostado"
+    pedro "An de ser los vendedores de television por cable, mejor me quedare acostado."
+    $ renpy.music.set_volume(0.2, channel='music')
+    play music "sonidos/explosion.mp3"
+
+    window hide
+    
+      
+    $ music_duration = 7  # Duración en segundos (ajustar al tiempo de la música)
+    $ renpy.pause(music_duration, hard=True)  # Hacer una pausa
+    stop music  # Detener la música con un fadeout de 5 segundos
+    
+    window show
+    
+    pedro "Que fue esa explocion tan fuerte."
+    pedro "Creo que llegaron los Aliens."
+
     return
