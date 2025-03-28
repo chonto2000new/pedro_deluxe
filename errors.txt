@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 33: expected statement.
-    "¡Te diriges a " + [viaje] + "!"
-                     ^
+File "game/cap_1/inicio_cap1.rpy", line 4: end of line expected.
+    scene bg bg_casa.png
+                    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Tue Mar 25 01:57:37 2025
+Tue Mar 25 20:05:06 2025

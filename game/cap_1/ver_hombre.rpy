@@ -20,7 +20,11 @@ label ir_hombre:
     hombre_misterioso "Asi es mi estimado, es una aventura llena de desafios, misterio, accion y aventura."
     hombre_misterioso "A si que buena suerte."
 
-    jump dia_siguiente
+    $ deciciones = "lonche"
+
+    hide bg
+
+    jump inicio_viaje
 
 label descansar:
     "Pedro se quedo recostado"
@@ -39,5 +43,14 @@ label descansar:
     
     pedro "Que fue esa explocion tan fuerte."
     pedro "Creo que llegaron los Aliens."
+    honbre_misterioso "Ningun alien solo soy yo, el trabajador del sat."
+    hombre_misterioso "Pense que en este lugar tenian educacion"
+    hombre_misterioso "Pero solo vengo a decirte que no has hecho tu declaracion anual ante el sat."
+    pedro "chintrolas!!!! no sabia nada sobre eso."
+    hombre_misterioso "Por tu falta de educacion no te dire de que seran tus dos desafios."
+    honbre_misterioso "solo te dire que tienes que ir al reino de mexico y llegar al sat adios"
 
-    return
+    # el hombre desaparece 
+    pedro "Que raro, bueno a dormir que mañana tenemos que echarle ganas." 
+
+    jump inicio_viaje
