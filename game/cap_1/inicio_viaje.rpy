@@ -9,6 +9,10 @@ label inicio_viaje:
         es "Aqui tienes tu lonche."
         es "Ten cuidado en tu viaje."
         pedro "Gracias, con este lonche de huevo con chorizo tendre mucho poder  en mi viaje."
+
+        "Has obtenido un lonche de huevo con chorizo."
+        $ inventario.append({"objeto": "lonche","tipo":"comida", "IsClave": False, "img": "inventario/lonche.png"})
+
        
     else:
         es "Aqui tienes tu lonche."
